@@ -1,0 +1,27 @@
+azure-security-automation/
+│
+├── scripts/
+│   ├── license_revoke.py
+│   ├── user_audit.py
+│   ├── utils.py
+│
+├── diagrams/
+│   ├── architecture.mmd
+│   ├── architecture.png
+│
+├── docs/
+│   ├── case_study.md
+│   ├── case_study.pdf
+│   ├── presentation.pptx
+│
+├── config/
+│   ├── settings.py
+│   ├── config.json
+│
+├── logs/
+│   ├── app.log
+│
+├── .gitignore
+├── requirements.txt
+├── README.md
+└── main.py
