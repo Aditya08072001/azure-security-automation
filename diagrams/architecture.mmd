@@ -1,0 +1,14 @@
+graph TD
+A[Udemy / HR System / Input Source] --> B[Python Automation Script]
+B --> C[User Activity Checker]
+C --> D{Inactive > 30 Days?}
+
+D -->|Yes| E[Azure Entra ID Connector]
+E --> F[Remove E1/E3 License]
+E --> G[Disable User Account]
+
+D -->|No| H[Skip User]
+
+F --> I[Log Action]
+G --> I
+I --> J[Audit Report Generated]
