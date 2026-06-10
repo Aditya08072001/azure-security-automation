@@ -1,7 +1,7 @@
 import requests
 from auth import get_access_token
 
-USER_ID = "348cf04b-e3c3-4337-9787-ced5fa089502"
+USER_ID = "User ID key"
 
 token = get_access_token()
 
