@@ -1,8 +1,8 @@
 import requests
 
-TENANT_ID = "2d5cf188-464d-4592-a2f1-12fa21c36f4d"
-CLIENT_ID = "df037682-89b4-40a3-a5f2-b2f7ba1f69ad"
-CLIENT_SECRET = "CdG8Q~6J9BZg_Os7jkOtjBRe1h-VJTtMlg~7_aZ6"
+TENANT_ID = "TENANT_ID key"
+CLIENT_ID = "CLIENT_ID key"
+CLIENT_SECRET = "CLIENT_SECRET key"
 
 def get_access_token():
 
